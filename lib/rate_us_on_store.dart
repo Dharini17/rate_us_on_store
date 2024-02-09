@@ -17,8 +17,6 @@ class RateUsOnStore {
 
     if (await launchUrl(Uri.parse(strURL),mode: LaunchMode.externalApplication)) {
       await canLaunchUrl(Uri.parse(strURL));
-    } else {
-      print("Invalid Store URL");
     }
   }
 }

@@ -1,6 +1,6 @@
 name: rate_us_on_store
 description: "Open application detail page on PlayStore if android application and in AppStore if IOS application"
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Dharini17/rate_us_on_store
 documentation: https://pub.dev/documentation/rate_us_on_store
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^6.2.4
+  url_launcher: ^6.2.6
 
 dev_dependencies:
   flutter_test:
